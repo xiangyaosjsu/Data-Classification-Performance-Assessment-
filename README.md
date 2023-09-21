@@ -4,7 +4,7 @@
 **Project**: Smoking and Drinking Classification
 
 **Project Target**: predict whether a person is a smoker and/or a drinker according to body signals. 
-- Models/methods: based on data character, I would aplly different and applicable methods/models to predict smoker, drinker, smoker & drinker respectively using body signal variables.
+- Models/methods: based on data character, I would apply different and applicable methods/models to predict smoker, drinker, smoker & drinker respectively using body signal variables.
 - EDA: to present the distribution and characteristics of each variable; also relationship between/among variables, such as correlation. 
 - Prediction performance will be compared across models to choose a best model for different response y.
 - Various data visualization methods would be applied to assist in presenting analysis results.
@@ -31,6 +31,7 @@
 - age:	round up to 5 years
 - height:	round up to 5 cm[cm]
 - weight:	[kg]
+- waistline: [cm]
 - sight_left:	eyesight(left)
 - sight_right:	eyesight(right)
 - SBP:	Systolic blood pressure[mmHg]
