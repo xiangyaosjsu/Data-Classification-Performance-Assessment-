@@ -6,16 +6,9 @@
 <p align="justify"> Then, 11 appropriate models we have learned in Math 251 are employed firstly fit and test on sample data and finally on the whole data, including K-Nearest Neighbors (KNN), Logistic Regression (LR), Linear Discriminant Analysis (LDA), Quadratic Discriminant Analysis (QDA), Naïve Bayes (NB), Decision Tree (DTree), Bootstrap Aggregation (Bagging), Random Forest Classifier (RFC), Gradient Boosting Classifier (GBC), Support Vector Machines (SVM) and Artificial Neural Networks (ANN). Finally, test error rate and computing time are used as major criterion to compare and select the best fitted model to predict drinker & smoker. </p>
 
 ## 1. Data and Pre-process
+<p align="justify"> The data to be used is collected from the National Health Insurance Service in Korea. I obtain it from Kaggle.com . It has 991,346 observations, 18 quantitative variables and 6 qualitative variables. There is no missing value. To clean the data, I remove 26 duplicated observations; remove 57 observations in which variable ‘waistline’ is 999 cm; change value 9.9 in variable sight_left and sight_right to be 0, which means blind. Consequently, the clean data has 991,263 observations. Furthermore, I standardize the quantitative predictors, and convert categorical values of qualitative predictors to numerical values. </p>
 
-**Data**: Smoking and Drinking Dataset with body signal. The dataset is collected from the National Health Insurance Service in Korea. 
 
-**Data Source**: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download
-
-[Professor, the data size is big and I failed to uploda it into GitHub repository. I am learning and will figure it out soon. For now, please lick on this link to get the original data. Many thanks!]
-
-**Number of Features**: 24 (6 Qualitative variables; 18 Quantitative variables) [Might not use all variables for the project]
-
-**Number of Observations**: 991,346
 
 ## 3. Variables
 ### (1) Response Variable (y): 
