@@ -1,19 +1,12 @@
-# Drinker & Smoker Classification
+# <p align="center"> Drinker & Smoker Classification </p>
 
-## Introduction
+## <p align="center"> Introduction </p>
 <p align="justify"> This classification project aims to compare and select best fitted models in predicting whether a person is a drinker or a smoker according to some body signals. This project comprises four major components. Firstly, data summary and pre-process. Next, exploratory data analysis (EDA) is conducted to explore and display the distribution of responses and predictors. Descriptive summary, correlation heatmap, QQ-plots and histogram plots are employed to conduct distribution, correlation and normality check. </p>
 
 <p align="justify"> Then, 11 appropriate models we have learned in Math 251 are employed firstly fit and test on sample data and finally on the whole data, including K-Nearest Neighbors (KNN), Logistic Regression (LR), Linear Discriminant Analysis (LDA), Quadratic Discriminant Analysis (QDA), Naïve Bayes (NB), Decision Tree (DTree), Bootstrap Aggregation (Bagging), Random Forest Classifier (RFC), Gradient Boosting Classifier (GBC), Support Vector Machines (SVM) and Artificial Neural Networks (ANN). Finally, test error rate and computing time are used as major criterion to compare and select the best fitted model to predict drinker & smoker. </p>
 
-**Project**: Smoking and Drinking Classification
+## 1. Data and Pre-process
 
-**Project Target**: predict whether a person is a smoker and/or a drinker according to body signals. 
-- Models/methods: based on data character, I would apply different and applicable methods/models to predict smoker, drinker, smoker & drinker respectively using body signal variables.
-- EDA: to present the distribution and characteristics of each variable; also relationship between/among variables, such as correlation. 
-- Prediction performance will be compared across models to choose a best model for different response y.
-- Various data visualization methods would be applied to assist in presenting analysis results.
-
-## 2. Data
 **Data**: Smoking and Drinking Dataset with body signal. The dataset is collected from the National Health Insurance Service in Korea. 
 
 **Data Source**: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download
