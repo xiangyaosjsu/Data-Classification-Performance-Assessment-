@@ -1,4 +1,4 @@
-# Math-251-Project
+# Drinker & Smoker Classification
 
 ## 1. Project Description
 **Project**: Smoking and Drinking Classification
