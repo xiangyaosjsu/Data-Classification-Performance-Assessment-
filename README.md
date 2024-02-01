@@ -8,6 +8,15 @@
 ## 1. Data and Pre-process
 <p align="justify"> The data to be used is collected from the National Health Insurance Service in Korea. I obtain it from Kaggle.com . It has 991,346 observations, 18 quantitative variables and 6 qualitative variables. There is no missing value. To clean the data, I remove 26 duplicated observations; remove 57 observations in which variable ‘waistline’ is 999 cm; change value 9.9 in variable sight_left and sight_right to be 0, which means blind. Consequently, the clean data has 991,263 observations. Furthermore, I standardize the quantitative predictors, and convert categorical values of qualitative predictors to numerical values. </p>
 
+## 2. Exploratory Data Analysis (EDA)
+<p align="justify"> (1) Response y. There are two Response y, ‘drinker’ and ‘smoker’. ‘drinker’ has two classes that 50.99% observations are in class 0 (Not Drink) and 49.01% are in class 1 (Drink). The distribution of ‘drinker’ across two classes are balanced. ‘smoker’ has three classes that 60.95% observations are in class 0 (Never Smoke), 17.35% are in class 1 (Previously Smoke), and 21.70% are in class 2 (Actively Smoke). The distribution of ‘smoker’ across its three classes are not balanced. (See Figure 1) </p>
+
+<p align="center"> <img width="569" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/40e9cc66-65ee-4252-9369-0297eb00e964"> </p>
+<p align="center"> Figure 1 Histogram Distribution of Response y </p>
+
+
+
+
 
 
 ## 3. Variables
