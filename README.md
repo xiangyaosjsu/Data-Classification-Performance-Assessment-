@@ -12,7 +12,7 @@
 1. **Response y.** There are two Response y, ‘drinker’ and ‘smoker’. ‘drinker’ has two classes that 50.99% observations are in class 0 (Not Drink) and 49.01% are in class 1 (Drink). The distribution of ‘drinker’ across two classes are balanced. ‘smoker’ has three classes that 60.95% observations are in class 0 (Never Smoke), 17.35% are in class 1 (Previously Smoke), and 21.70% are in class 2 (Actively Smoke). The distribution of ‘smoker’ across its three classes are not balanced. (See Figure 1) </p>
 
 <p align="center"> <img width="45%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Drinker histogram.png">
-                   <img width="55%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Smoker histogram.png"> </p>
+                   <img width="54%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Smoker histogram.png"> </p>
 <p align="center"> Figure 1 Histogram Distribution of Response y </p>
 
 2. **Quantitative Predictors.** There are 18 quantitative predictors including age, weight, height, waistline, eye sights and some commonly used blood test results. Table 1 gives the descriptive summary of each quantitative predictor, including predictor’s name, definition, mean, standard deviation, minimum & maximum value, 25%, 50% and 75% quartile value. Meanwhile, I examine the histogram distribution of the quantitative predictors (See Figure 2 & 3). It is found that BLDS, tot_chole, HDL_chole, LDL_chole, triglyceride, hemoglobin, serum_creatinine, SGOT_AST, SGOT_ALT and gamma_GTP have extreme large outliers and are heavily skewed by a long right tail. This implies a certain level of violation of normal distribution. </p>
