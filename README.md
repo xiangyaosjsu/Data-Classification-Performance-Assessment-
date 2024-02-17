@@ -27,6 +27,8 @@
 
 <p align="justify"> Moreover, I use correlation heatmap to check the correlation among quantitative predictors. It is found that among the 18 quantitative predictors, 8 pairs have moderate to strong correlation coefficients ([0.5,0.88]). Please see Appendix III for Correlation Heatmap & specific correlation coefficients. The correlations between quantitative predictors might affect some classification models’ prediction performance, such as NB & Random Forest. Because NB assumes independence among predictors within each class and Random Forest has a decorrelation process. </p>
 
+![Correlation heatmap](https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/0e6be5a7-066f-4808-96c6-ddbbfc20c3b7)
+<p align="center"> Figure 4 Correlation Heatmap </p>
 
 
 <p align="justify"> Furthermore, I use QQ-plot to do normality check (See Appendix IV). Whether or not normal distribution assumption of features is satisfied would have an impact on the prediction performance of LDA & QDA. Some predictors, including age, height, weight, waistline, sight_left, sight_right, SBP, DBP and hemoglobin is somewhat alike a normal bell curve shape; however, other predictors, including BLDS, tot_chole, HDL_chole, LDL_chole, triglyceride, serum_creatinine, SGOT_AST, SGOT_ALT and gamma_GTP is totally different from normal distribution shape. Thus, normality assumption is violated in some features. I think it is the extreme large outliers stretch those predictors’ distribution shapes to the far right. 
