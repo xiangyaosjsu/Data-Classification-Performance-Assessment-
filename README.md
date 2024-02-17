@@ -11,7 +11,7 @@
 ## 2. Exploratory Data Analysis (EDA)
 1. **Response y.** There are two Response y, ‘drinker’ and ‘smoker’. ‘drinker’ has two classes that 50.99% observations are in class 0 (Not Drink) and 49.01% are in class 1 (Drink). The distribution of ‘drinker’ across two classes are balanced. ‘smoker’ has three classes that 60.95% observations are in class 0 (Never Smoke), 17.35% are in class 1 (Previously Smoke), and 21.70% are in class 2 (Actively Smoke). The distribution of ‘smoker’ across its three classes are not balanced. (See Figure 1) </p>
 
-<p align="center"> <img width="45%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Drinker histogram.png">
+<p align="center"> <img width="47%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Drinker histogram.png">
                    <img width="52%" alt="Screen Shot 2024-01-31 at 3 59 46 PM" src="images/Smoker histogram.png"> </p>
 <p align="center"> Figure 1 Histogram Distribution of Response y </p>
 
