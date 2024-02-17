@@ -19,10 +19,10 @@
 <p align="center"> <img width="98%" alt="Screen Shot 2024-01-31 at 4 06 47 PM" src="https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/00a0b888-6df8-4479-bdd6-0f89e3de3b5e"> </p>
 <p align="center"> Table 1 Descriptive Summary of Quantitative Predictors </p>
 
-<p align="center"> <img width="98%" alt="image" src="images/Quantitative Histogram-Drinker.png"> </p>
+<p align="center"> <img width="98%" alt="image" src="images/Quantitative Histogram.png"> </p>
 <p align="center"> Figure 2 Histogram Distribution of Quantitative Predictors </p>
 
-<p align="center"> <img width="412" alt="image" src="https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/bcafd617-4db2-42e6-aac0-03032c230a09"> </p>
+<p align="center"> <img width="98%" alt="image" src="images/HDL Full vs Small.png"> </p>
 <p align="center"> Figure 3 HDL_chole Distribution: Full Range vs. Smaller Range </p>
 
 <p align="justify"> Moreover, I use correlation heatmap to check the correlation among quantitative predictors. It is found that among the 18 quantitative predictors, 8 pairs have moderate to strong correlation coefficients ([0.5,0.88]). Please see Appendix III for Correlation Heatmap & specific correlation coefficients. The correlations between quantitative predictors might affect some classification models’ prediction performance, such as NB & Random Forest. Because NB assumes independence among predictors within each class and Random Forest has a decorrelation process. </p>
