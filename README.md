@@ -47,35 +47,6 @@
 <p align="center"> <img width="80%" alt="image" src="images/Model Process.png"> </p>
 <p align="center"><b> Figure 6. Model Fit and Selection Process </b></p>
 
+<p align="justify"><b>Step 1 </b>. Use Sample Data to Select Models & Parameters. Firstly, Draw Random Samples. From the original clean data, I randomly draw two samples. In each sample, there is one training data set and 50 test data sets. The training data in sample 1 has 10k observations, which is equivalently to about 1% of the whole data; each test data set has 1k observation. The training data in sample 2 has 100k observations, which is equivalently to about 10% of the whole data; each test data set has 5k observations. For each sample, I firstly randomly sample the training data set from the original clean data. Then, I randomly draw 50 test data sets with replacement from “original clean data – training data of that sample”, such that the training and test data in each sample don’t have an overlap. </p>
 
-### (1) Response Variable (y): 
-- Smoking status: SMK_stat_type_cd [3 levels: 1(never), 2(used to smoke but quit), 3(still smoke)]
-- Drinking status: DRK_YN	[2 levels: Drinker or Not]
-- Smoking & Drinking status: will be generated based on Smoking status and Drinking status with 6-levels
-
-### (2) Predictors (x): 
-####     I. Quantitative Predictors:
-- age:	round up to 5 years
-- height:	round up to 5 cm[cm]
-- weight:	[kg]
-- waistline: [cm]
-- sight_left:	eyesight(left)
-- sight_right:	eyesight(right)
-- SBP:	Systolic blood pressure[mmHg]
-- DBP:	Diastolic blood pressure[mmHg]
-- BLDS:	BLDS or FSG(fasting blood glucose)[mg/dL]
-- tot_chole:	total cholesterol[mg/dL]
-- HDL_chole:	HDL cholesterol[mg/dL]
-- LDL_chole:	LDL cholesterol[mg/dL]
-- triglyceride:	triglyceride[mg/dL]	
-- hemoglobin:	hemoglobin[g/dL]
-- serum_creatinine:	serum(blood) creatinine[mg/dL]
-- SGOT_AST:	SGOT(Glutamate-oxaloacetate transaminase) AST(Aspartate transaminase)[IU/L]
-- SGOT_ALT:	ALT(Alanine transaminase)[IU/L]	
-- gamma_GTP:	y-glutamyl transpeptidase[IU/L]
-
-####     II. Qualitative Predictors:
-- Sex:	male, female
-- hear_left:	hearing left, 1(normal), 2(abnormal)
-- hear_right:	hearing right, 1(normal), 2(abnormal)
-- urine_protein:	protein in urine, 1(-), 2(+/-), 3(+1), 4(+2), 5(+3), 6(+4)
+<p align="justify">The reasons to draw two samples is that sample 1 uses about 1% observations to fit model. The computing time is reasonably good, but the representation of the data is not that trustworthy. Sample 2 uses about 10% observations to fit model. The representation is more trustworthy; however, it takes more than 10 hours for some models to finalize model fit. Therefore, I use both samples to fit the 10 classification models and find their best parameters. Based on the two lists of selected models and best parameters, a final list of selected models and best parameters are determined. </p>
