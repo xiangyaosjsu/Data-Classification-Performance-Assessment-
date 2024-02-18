@@ -28,7 +28,7 @@
 
 <p align="justify"> Moreover, I use correlation heatmap to check the correlation among quantitative predictors. It is found that among the 18 quantitative predictors, 8 pairs have moderate to strong correlation coefficients ([0.5,0.88]). Please see Figure 4 for Correlation Heatmap & specific correlation coefficients. The correlations between quantitative predictors might affect some classification models’ prediction performance, such as NB & Random Forest. Because NB assumes independence among predictors within each class and Random Forest has a decorrelation process. </p>
 
-![Correlation heatmap](https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/0e6be5a7-066f-4808-96c6-ddbbfc20c3b7)
+<p align="center"> <img width="80%" alt="image" src="images/Correlation Heatmap.png"> </p>
 <p align="center"><b> Figure 4. Correlation Heatmap </b></p>
 
 <p align="center"> <img width="70%" alt="image" src="images/Table 2.png"> </p>
@@ -42,7 +42,10 @@
 <p align="justify"> (3) Qualitative Predictors. Three qualitative variables are included into the models, gender, left and right hearings. There are 53.11% observations are female; 46.90% are males; 96.85% and 96.95% observations have normal left hearing and right learning, while 3.15% and 3.05% observations have abnormal left and right hearing. The distribution of left and right hearing across levels/classes are highly imbalanced. These two variables probably are not good predictors. </p>
 
 ## 3. Model Training and Parameter Selection. 
-<p align="justify"> The whole data set has about 1 million observations. Directly doing model training and parameter tuning on the whole data will cost a great amount of time. Thus, I start from using sample data to select some manifestly better classification models and their corresponding best parameters. Then, apply the selected model and best parameters to the whole data set to do model comparison and select the best fitted model. (See Figure 2 for Model fit and selection process) </p>
+<p align="justify"> The whole data set has about 1 million observations. Directly doing model training and parameter tuning on the whole data will cost a great amount of time. Thus, I start from using sample data to select some manifestly better classification models and their corresponding best parameters. Then, apply the selected model and best parameters to the whole data set to do model comparison and select the best fitted model. (See Figure 6 for Model fit and selection process) </p>
+
+<p align="center"> <img width="80%" alt="image" src="images/Model Process.png"> </p>
+<p align="center"><b> Figure 6. Model Fit and Selection Process </b></p>
 
 
 ### (1) Response Variable (y): 
