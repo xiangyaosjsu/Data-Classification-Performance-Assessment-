@@ -44,7 +44,7 @@
 ## 3. Model Training and Parameter Selection. 
 <p align="justify"> The whole data set has about 1 million observations. Directly doing model training and parameter tuning on the whole data will cost a great amount of time. Thus, I start from using sample data to select some manifestly better classification models and their corresponding best parameters. Then, apply the selected model and best parameters to the whole data set to do model comparison and select the best fitted model. (See Figure 6 for Model fit and selection process) </p>
 
-<p align="center"> <img width="80%" alt="image" src="images/Model Process.png"> </p>
+<p align="center"> <img width="80%" alt="image" src="images/Model Fit Process.png"> </p>
 <p align="center"><b> Figure 6. Model Fit and Selection Process </b></p>
 
 
