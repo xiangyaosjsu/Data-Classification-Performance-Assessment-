@@ -65,7 +65,7 @@ $$ Test Error = \frac{Number of obs. whose predicted class is different from the
 
 $$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
 
-
+<p align="justify"> (See Table 3 for Average Test Errors for each model based on different samples and response y). </p>
 
 
 
