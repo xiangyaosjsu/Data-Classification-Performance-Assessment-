@@ -57,6 +57,10 @@
 <p align="center"> <b> Note </b>: Parameters in <b> Black color </b>: fixed parameter; in <b> Orange color </b>: use grid search to do parameter tuning; in <b> Green color </b>: use ‘sample 1 + smoker_drinker response’ to find the best parameters and apply the selected parameters to all ANN models. </p>
 <p align="center"><b> Figure 7. Model Fit and Selection Process </b></p>
 
+<p align="justify">Thirdly, Select Models & Best Parameters. For each response y (drinker & smoker), all the above models are fitted on the training data of sample 1 and 2 respectively. The fitting process is the same for drinker and smoker. Let’s take response ‘drinker’ + sample 1 for example. I fit the 10 models on the training data of sample 1; use grid search to find the best parameters for each model if necessary. Then, apply the trained model and the corresponding best parameters to the 50 test data sets in sample 1 to do prediction. Based on the prediction, I calculate test error rate for each test data set using equation </p>
+$Test Error = \frac{# of obs.whose predicted class is different from the given class}{# of obs.in that test data set}$
+
+
 
 **Note**
 <p align="justify"> [1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download </p>
