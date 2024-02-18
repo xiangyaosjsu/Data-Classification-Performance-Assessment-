@@ -63,7 +63,7 @@ $$ Test Error = \frac{Number of obs. whose predicted class is different from the
 
 <p align="justify" >Next, I draw boxplots distribution of the 50 test errors for each model (See Figure 8, 9, 10, 11) and calculate the average test error for each model using equation </p>
 
-$$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
+$$ Average Test Error = \frac {\sum_{i=1}_{50} Test Error}{50} $$
 
 
 
