@@ -69,7 +69,7 @@ $$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
 <p align="center"> <img width="80%" alt="image" src="images/Table 3.png"> </p>
 <p align="center"><b> Table 3. Average Test Errors of Sample Data: drinker & smoker </b></p>
 
-
+<p align="justify"> Then, ‘Smaller Test Error Rate’ is used as the selection criteria to select models that have smaller test error rate OR to squeeze out models with obvious larger test errors. For ‘Sample 1 + Response drinker’, I select RFC, GBC, SVM, LR, LDA and ANN as better models. For ‘Sample 1 + Response smoker’ combination, I select RFC, GBC, SVM, LR and LDA as better models. For both ‘Sample 2 + Response drinker’ and ‘Sample 2 + Response smoker’ combination, the selected models are RFC, ANN, LR, LDA and KNN. Please See Figure 9 for boxplot distribution of test errors and Table 3 for Average Test Errors. </p>
 
 **Note**
 <p align="justify"> [1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download </p>
