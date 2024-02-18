@@ -58,7 +58,6 @@
 
 
 
-
-[^1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download
-[^2]: In the original data set, there is another qualitative variable which is urine_protein with six levels. But I don’t use it to fit model. All other variables are employed by this project. 
-[^3]: This is a generated variable based on original response drinker & smoker. Firstly, I change ‘smoker’ from 3-level to be 2-level through combining level 1 (Previously smoke) & 2 (Actively smoke) of smoker to be level 1 (Smoker). Then, based on 2-level ‘smoker’ & ‘drinker’, I created variable ‘smoker_drinker’ with 4 levels. Level 0 = Not smoke & Not drink; Level 1 = Smoke, Not drink; Level 2 = Not smoke, Drink; Level 4 = Smoker & Drink. 
+<p align="justify"> [1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download </p>
+<p align="justify"> [2]: In the original data set, there is another qualitative variable which is urine_protein with six levels. But I don’t use it to fit model. All other variables are employed by this project. </p>
+<p align="justify">[3]: This is a generated variable based on original response drinker & smoker. Firstly, I change ‘smoker’ from 3-level to be 2-level through combining level 1 (Previously smoke) & 2 (Actively smoke) of smoker to be level 1 (Smoker). Then, based on 2-level ‘smoker’ & ‘drinker’, I created variable ‘smoker_drinker’ with 4 levels. Level 0 = Not smoke & Not drink; Level 1 = Smoke, Not drink; Level 2 = Not smoke, Drink; Level 4 = Smoker & Drink. </p>
