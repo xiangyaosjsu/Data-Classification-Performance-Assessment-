@@ -31,7 +31,7 @@
 ![Correlation heatmap](https://github.com/xiangyaosjsu/Math-251-Project/assets/145530232/0e6be5a7-066f-4808-96c6-ddbbfc20c3b7)
 <p align="center"><b> Figure 4. Correlation Heatmap </b></p>
 
-<p align="center"> <img width="98%" alt="image" src="images/Table 2.png"> </p>
+<p align="center"> <img width="80%" alt="image" src="images/Table 2.png"> </p>
 <p align="center"><b>Table 2. Correlation Coefficients (>= 0.50) of Quantitative Predictors y</b></p>
 
 <p align="justify"> Furthermore, I use QQ-plot to do normality check (See Figure 5). Whether or not normal distribution assumption of features is satisfied would have an impact on the prediction performance of LDA & QDA. Some predictors, including age, height, weight, waistline, sight_left, sight_right, SBP, DBP and hemoglobin is somewhat alike a normal bell curve shape; however, other predictors, including BLDS, tot_chole, HDL_chole, LDL_chole, triglyceride, serum_creatinine, SGOT_AST, SGOT_ALT and gamma_GTP is totally different from normal distribution shape. Thus, normality assumption is violated in some features. I think it is the extreme large outliers stretch those predictors’ distribution shapes to the far right. 
