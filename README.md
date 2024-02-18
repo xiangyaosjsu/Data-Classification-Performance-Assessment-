@@ -71,6 +71,11 @@ $$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
 
 <p align="justify"> Then, ‘Smaller Test Error Rate’ is used as the selection criteria to select models that have smaller test error rate OR to squeeze out models with obvious larger test errors. For ‘Sample 1 + Response drinker’, I select RFC, GBC, SVM, LR, LDA and ANN as better models. For ‘Sample 1 + Response smoker’ combination, I select RFC, GBC, SVM, LR and LDA as better models. For both ‘Sample 2 + Response drinker’ and ‘Sample 2 + Response smoker’ combination, the selected models are RFC, ANN, LR, LDA and KNN. Please See Figure 9 for boxplot distribution of test errors and Table 3 for Average Test Errors. </p>
 
+<p align="justify"> By here, for each response y, there are two lists of selected models and best parameters, one from Sample 1 and one from Sample 2. For models that use fixed parameters, no matter the model is selected by either model, use the fixed parameters; for models that is selected by one of the samples, use the corresponding best parameters; for models that use grid search to select best parameters and are selected by both samples, choose the best parameters corresponding to the lower average test error. Please see Table 4 & 5 for the best parameter selection using sample data sets. One thing I observe in this step is generally the average test error rate of the same model get smaller from sample 1 to sample 2 in both response y. Finally, I get a single list of selected models and corresponding best parameters (See Table 4 & 5). An observation throughout this stage is, seemingly, as the observations in training data increases from 1% to 10% of the whole data, the test error decreases a little bit for the same model and the distribution of test errors tend to be more compact. </p>
+
+
+
+
 **Note**
 <p align="justify"> [1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download </p>
 <p align="justify"> [2]: In the original data set, there is another qualitative variable which is urine_protein with six levels. But I don’t use it to fit model. All other variables are employed by this project. </p>
