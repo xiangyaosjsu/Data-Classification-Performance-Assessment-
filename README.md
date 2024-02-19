@@ -75,7 +75,11 @@ $$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
 
 <p align="center"> <img width="80%" alt="image" src="images/4 Images.png"> </p>
 
+<p align="center"> <img width="80%" alt="image" src="images/Table 4.png"> </p>
+<p align="center"><b> Table 4. Prediction Performance: drinker </b></p>
 
+<p align="center"> <img width="80%" alt="image" src="images/Table 5.png"> </p>
+<p align="center"><b> Table 5. Prediction Performance: smoker </b></p>
 
 
 **Note**
