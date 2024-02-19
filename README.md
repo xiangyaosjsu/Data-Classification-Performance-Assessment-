@@ -2,6 +2,7 @@
 <p align="center"> Xiang Yao </p>
 <p align="center"> December, 2023 </p>
 
+
 ## <p align="center"> Introduction </p>
 <p align="justify"> This classification project aims to compare and select best fitted models in predicting whether a person is a drinker or a smoker according to some body signals. This project comprises four major components. Firstly, data summary and pre-process. Next, exploratory data analysis (EDA) is conducted to explore and display the distribution of responses and predictors. Descriptive summary, correlation heatmap, QQ-plots and histogram plots are employed to conduct distribution, correlation and normality check. </p>
 
