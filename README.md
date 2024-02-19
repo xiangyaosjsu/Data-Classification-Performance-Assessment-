@@ -76,6 +76,8 @@ $$ Average Test Error = \frac {\sum_{i=1}^{50} Test Error}{50} $$
 <p align="center"> <img width="80%" alt="image" src="images/4 Images.png"> </p>
 
 
+
+
 **Note**
 <p align="justify"> [1]: https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset?resource=download </p>
 <p align="justify"> [2]: In the original data set, there is another qualitative variable which is urine_protein with six levels. But I don’t use it to fit model. All other variables are employed by this project. </p>
